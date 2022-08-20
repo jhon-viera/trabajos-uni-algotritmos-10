@@ -1,18 +1,100 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Build and Release Folderscalcular iva hacer revisar
+#ivacalculada
 
-# Other files and folders
-.settings/
+precio=float(input("precio sin iva: "))
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+iva=0.19
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+
+preciosiniva=precio
+
+preciofinal=precio*iva
+
+
+
+print("precio sin iva: ",preciosiniva)
+
+
+print("precio total a pagar: ",preciosiniva)
+división
+#calculadora
+
+int=()
+a=float(input( "digite el numero a: " ))
+
+b=float(input( "digite el numero b: " ))
+
+división = a / b
+
+print("resultado de la division ", division)
+matriz
+matriz = []
+filas = int(input("cant de filas: "))
+columnas = int(input("canto de columnas: "))
+
+para i en rango (filas):
+    matriz.append([0]*columnas)
+
+matriz[0][0]= 1
+
+imprimir (matriz)
+multiplicacion
+#calculadora
+
+int=()
+a=float(input( "digite el numero a: " ))
+
+b=float(input( "digite el numero b: " ))
+
+multiplicacion = a * b
+
+print("resultado de la multiplicacion ", multiplicacion)
+nomina
+#nomina
+nombre=input("digite el nombre y apelldio del empleado: ")
+cargo=input("cargo del empleado: ")
+salario=float(input("salario mensual del empleado: "))
+horasextras=int(input("cant de horas extras: "))
+diaslaborado=int(input("cant dias laboras:"))
+valorextras=salario//30//8
+totalextras=valorextras*horasextras
+totalsalario=salario//30*diaslaborado
+totaldevengado=salario+totalextras
+salud=salario*8//100
+pensión=salario*3.375//100
+netopagar=salud+pension+totaldevengado
+impresión("----------------------------------------------- -------------------------------------------------- --------------------------------------------------")
+print("Nombre :", nombre)
+print("Salario:",salario)
+print("Dias Laborados:",diaslaborados)
+impresión("----------------------------------------------- ")
+imprimir("salud :", salud)
+print("Pensión:" ,pensión)
+impresión("----------------------------------------------- ")
+print("Salario Total:",salarioTotal)
+print("Horas Extras :", totalextras)
+print("Valor Horas Extras :", valorextras)
+impresión("----------------------------------------------- ")
+print("Total A Pagar :",netopagar)
+resto
+#calculadora
+
+int=()
+a=float(input( "digite el numero a: " ))
+
+b=float(input( "digite el numero b: " ))
+
+resto = a - b
+
+print("resultado de la resta ", resta)
+suma
+#calculadora
+
+int=()
+a=float(input( "digite el numero a: " ))
+
+b=float(input( "digite el numero b: " ))
+
+suma = a + b
+
+print("resultado de la suma ", suma)
